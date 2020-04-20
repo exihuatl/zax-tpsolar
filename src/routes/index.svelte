@@ -1,6 +1,7 @@
 <style>
   h1,
-  figure {
+  figure,
+  p {
     text-align: center;
     margin: 0 auto;
   }
@@ -19,7 +20,10 @@
   img {
     width: 100%;
     max-width: 400px;
-    margin: 0 0 1em 0;
+  }
+
+  p {
+    margin: 1em auto;
   }
 
   @media (min-width: 480px) {
@@ -33,9 +37,15 @@
   <title>Sapper project template</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1 class="text-2xl">Great success!</h1>
 
 <figure>
-  <img alt="Borat" src="great-success.png" />
+  <img class="mx-auto my-4" alt="Borat" src="great-success.png" />
   <figcaption>HIGH FIVE!</figcaption>
 </figure>
+
+<p>
+  <strong>
+    Try editing this file (src/routes/index.svelte) to test live reloading.
+  </strong>
+</p>
