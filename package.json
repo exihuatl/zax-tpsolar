@@ -1,7 +1,8 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "tpsolar",
+  "description": "tpsolar",
   "version": "0.0.1",
+  "author": "Patryk Staniewski",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build",
