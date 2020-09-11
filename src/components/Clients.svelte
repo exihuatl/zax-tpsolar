@@ -34,6 +34,9 @@
   .logos div {
     background: #5a98d0;
   }
+  .logos img {
+    border-radius: 20px;
+  }
 </style>
 
 <section class="w-full py-24">
@@ -49,7 +52,7 @@
 
     <div class="logos my-24">
       {#each images as src}
-        <div><img class="w-48 h-48 p-8 block m-auto" {src} alt="company logo" /></div>
+        <div><img class="w-48 h-48 p-8 block my-4 mx-auto bg-white" {src} alt="company logo" /></div>
       {/each}
     </div>
   </div>
