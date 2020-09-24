@@ -9,7 +9,7 @@
     "sapper:dev": "sapper dev",
     "dev": "npm-run-all --parallel sapper:dev tailwind:dev",
     "build": "npm run tailwind:prod && sapper build",
-    "export": "rm -rf docs && npm run tailwind:prod && sapper export --basepath zax-tpsolar --legacy && mv __sapper__/export/zax-tpsolar docs",
+    "export": "npm run tailwind:prod && sapper export",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
