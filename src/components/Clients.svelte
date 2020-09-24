@@ -9,8 +9,39 @@
     border-radius: 200px 0 0 0;
   }
 
+  header {
+    padding-left: 2rem;
+  }
+
   header p {
     opacity: 0.6;
+  }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  .logos div {
+    background: #5a98d0;
+  }
+  .logos img {
+    border-radius: 20px;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  @media (min-width: 600px) {
+    .logos {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .logos img {
+      width: 10rem;
+      height: 10rem;
+    }
   }
 
   @media (min-width: 980px) {
@@ -22,20 +53,6 @@
       margin-right: 6rem;
       flex: 0 0 auto;
     }
-  }
-
-  .logos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1px;
-    background: rgba(255, 255, 255, 0.4);
-  }
-
-  .logos div {
-    background: #5a98d0;
-  }
-  .logos img {
-    border-radius: 20px;
   }
 </style>
 
@@ -52,7 +69,7 @@
 
     <div class="logos my-24">
       {#each images as src}
-        <div><img class="w-48 h-48 p-8 block my-4 mx-auto bg-white" {src} alt="company logo" /></div>
+        <div><img class="w-40 h-40 p-8 block my-8 mx-auto bg-white" {src} alt="company logo" /></div>
       {/each}
     </div>
   </div>

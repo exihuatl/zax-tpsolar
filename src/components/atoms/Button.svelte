@@ -1,3 +1,7 @@
+<script>
+  export let full = false;
+</script>
+
 <style>
   button {
     border-radius: 10px;
@@ -9,6 +13,10 @@
   button:hover {
     opacity: 0.9;
   }
+
+  .full {
+    width: 100%;
+  }
 </style>
 
-<button class="px-12 py-4 text-white whitespace-no-wrap font-light"><slot /></button>
+<button class:full class="px-12 py-4 text-white whitespace-no-wrap font-light"><slot /></button>
