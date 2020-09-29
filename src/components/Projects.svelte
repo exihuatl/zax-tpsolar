@@ -10,7 +10,7 @@
 </style>
 
 <section class="pt-8 md:pt-16 bg-white">
-  <div class="container px-4 mb-4">
+  <div class="container px-4 mb-8">
     <h2 class="font-hairline text-2xl md:text-3xl">Nasze realizacje</h2>
   </div>
 
