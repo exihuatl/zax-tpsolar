@@ -1,11 +1,15 @@
 <script>
-  import Nav from "../components/Nav.svelte";
-  import ContactUs from "../components/ContactUs.svelte";
+  import Hero from "../components/Hero.svelte";
+  import Features from "../components/Features.svelte";
+  import Projects from "../components/Projects.svelte";
   import Clients from "../components/Clients.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
 
-<Nav />
-<ContactUs />
+<Hero />
+
+<Features />
+<Projects />
 <Clients />
+
 <Footer />
