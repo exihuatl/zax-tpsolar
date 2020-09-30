@@ -1,4 +1,5 @@
 <script>
+  import Head from "../components/Head.svelte";
   import Hero from "../components/Hero.svelte";
   import Features from "../components/Features.svelte";
   import Projects from "../components/Projects.svelte";
@@ -6,10 +7,9 @@
   import Footer from "../components/Footer.svelte";
 </script>
 
+<Head />
 <Hero />
-
 <Features />
 <Projects />
 <Clients />
-
 <Footer />

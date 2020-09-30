@@ -35,7 +35,7 @@
       {#each features as { title, body }}
         <div class="relative">
           <h3 class="my-1 font-semibold">{title}</h3>
-          <p class="opacity-50">{body}</p>
+          <p class="text-gray-700">{body}</p>
         </div>
       {/each}
     </div>
