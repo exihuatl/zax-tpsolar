@@ -1,5 +1,5 @@
 <nav class="relative z-10">
-  <img class="absolute top-0 left-0 right-0 mx-auto mt-16 md:mt-40 w-64" src="/icons/logo.svg" alt="TP Solar" />
+  <img class="absolute top-0 left-0 right-0 mx-auto mt-16 md:mt-40 h-48 md:h-64" src="/icons/logo.svg" alt="TP Solar" />
 </nav>
 
 <header
