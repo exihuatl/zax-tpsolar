@@ -7,9 +7,9 @@
   import Mail from "./icons/Mail.svelte";
 
   const address = [
-    { Icon: Phone, label: "+48 473-321-854", href: "tel:+48473321854" },
-    { Icon: Phone, label: "+48 473-321-854", href: "tel:+48473321854" },
-    { Icon: Mail, label: "dawid@kienig.pl", href: "mailto:dawid@kienig.pl" },
+    { Icon: Phone, label: "+48 513-124-164", href: "tel:+48513124164" },
+    { Icon: Phone, label: "+48 793-009-441", href: "tel:+48793009441" },
+    { Icon: Mail, label: "biuro@tpsolar.pl", href: "mailto:biuro@tpsolar.pl" },
   ];
 </script>
 
